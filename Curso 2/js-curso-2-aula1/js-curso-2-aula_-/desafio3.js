@@ -34,6 +34,19 @@
 //     return dolar * cotacaoDolar;
 // }
 
+// Crie uma função que mostre na tela a área e o perímetro de uma sala retangular, utilizando altura e largura que serão dadas como parâmetro.
+function calcularAreaEPerimetro(altura, largura) {
+    let area = altura * largura;
+    let perimetro = 2 * (altura + largura);
+
+    console.log(`A área da sala é: ${area} m²`);
+    console.log(`O perímetro da sala é: ${perimetro} m`);
+}
+
+// Exemplo de uso:
+calcularAreaEPerimetro(5, 10); // Substitua pelos valores desejados
+
+
 
 
 
